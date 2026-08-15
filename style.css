@@ -1,3 +1,4 @@
+/* Lightmode Variables*/
 :root {
   --bg-color: #fbf8f3;
   --txt-color: black;
@@ -8,31 +9,13 @@
   --link-txt-color: darkgreen;
 }
 
+/* Basic Structures*/
 
-button {
-  text-align: center;
-  color: var(--select-color);  
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.right-align{
-  display: inline-flex;
-  position: absolute;
-  right: 5%;
-  margin-bottom: 10px;
-
-}
-
-#generate{
-/*  
-  background-color: ;
-*/
-}
-
-input {
-  color: var(--select-color);  
-
+body{
+  margin: 2em;
+  padding: 1em;
+  background-color: var(--bg-color);
+  color: var(--txt-color) !important;
 }
 
 h1{
@@ -55,33 +38,21 @@ a{
   color: var(--link-txt-color);
 }
 
-.tab {
-  margin-left: 50px;
-}
-
-.center{
-  text-align: center;
-}
-
-body{
-  margin: 2em;
-  padding: 1em;
-  background-color: var(--bg-color);
-  color: var(--txt-color);
-}
-
-border, .border-thin {
-  border-color: rgba(var(--v-border-color),var(--v-border-opacity)) !important;
-  border-style: solid !important;
-  border-width: thin !important;
+div{
+  width:100%;
 }
 
 footer{
   text-align: right;
 }
 
-select{
-  color: var(--select-color);
+/* Form Structures */
+
+button {
+  text-align: center;
+  color: var(--select-color);  
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 label{
@@ -90,7 +61,33 @@ label{
   align-items: center;
 }
 
-/* IDS BEGIN */
+input {
+  color: var(--select-color);  
+
+}
+
+select{
+  color: var(--select-color);
+}
+
+
+/* Position Classes */
+
+.right-align{
+  display: inline-flex;
+  position: absolute;
+  right: 5%;
+  margin-bottom: 10px;
+
+}
+
+.center{
+  text-align: center;
+}
+
+
+
+/* PB Vertical Card Clone */
 
 .box {
     border-color: black;
@@ -102,39 +99,8 @@ label{
     margin-left: 1em;    
 }
 
-.center {
-  text-align: center;
-}
 
-.colorLineText{
-  margin-left: 3em;
-  margin-right: 1em;
-}
-
-.colorLine{
-  padding: 4px !important;
-  margin-top: 4px !important;
-    height: 20px;
-
-}
-
-.lineData{
-  display: inline-flex;
-}
-
-#colorSet{
-  border-color: var(--border-color);
-  border-style: solid !important;
-  border-width: thin !important;
-  padding: 2em;
-
-  border-radius: 8px !important;
-  background-color: var(--boxContainer-color);
-  margin-top: 25px;
-}
-
-
-/* Symbols */
+/* ////// SVG Symbols ////// */
 svg{
   color: #9e9e9e;
   width: 16px !important;
@@ -146,30 +112,6 @@ svg{
   gap: 0.5rem;
 
   position: absolute;  
-}
-
-div{
-  width:100%;
-
-  /* broke chrome???*/
-}
-
-.checkboxes label {
-  display: inline-block;
-  padding-right: 10px;
-  white-space: nowrap;
-}
-.checkboxes input {
-  vertical-align: middle;
-}
-.checkboxes label span {
-  vertical-align: middle;
-}
-
-.checkboxes div{
-  display: inline-block;
-  padding-right: 10px;
-  white-space: nowrap;
 }
 
 .colorSymbolLight{  
@@ -212,12 +154,6 @@ div{
   fill: currentColor;
 }
 
-
-/*
-Source - https://stackoverflow.com/a/30712432
-Posted by web-tiki, modified by community. See post 'Timeline' for change history
-Retrieved 2026-08-12, License - CC BY-SA 3.0
-*/
 .colorSymbolDesaturated{  
   opacity: 1;
   d: path(
@@ -225,12 +161,6 @@ Retrieved 2026-08-12, License - CC BY-SA 3.0
   fill: transparent;
   stroke: currentColor; 
   stroke-width: 4px ;
-}
-
-#colorSymbolSaturatedBasis{  
-/*
-  right: 130px;
-*/
 }
 
 .saturatedFix{
@@ -241,46 +171,71 @@ Retrieved 2026-08-12, License - CC BY-SA 3.0
   right: 30%;
 }
 
-
-.cooperativeSVG{
-}
+/* ////// SVG Symbols End ////// */
 
 
-.key{
-
-  border-color: var(--border-color);
-  border-style: solid !important;
-  border-width: thin !important;
-  padding: 2em;
-
-  border-radius: 8px !important;
-
-  max-height: 300px;
-  overflow: hidden;
-}
+/*Checkboxes Alignment Fix*/
 
 input[type="checkbox"] {
   transform: scale(1.3);
   margin: 10px;
 }
 
-.colorPalette{
-    height: 16px; 
-    width: 14px; 
-    border-radius: 4px;
-    margin-left: 1em;   
-    right: 10%; 
-    position: absolute;
+.checkboxes label {
+  display: inline-block;
+  padding-right: 10px;
+  white-space: nowrap;
 }
+.checkboxes input {
+  vertical-align: middle;
+}
+.checkboxes label span {
+  vertical-align: middle;
+}
+
+.checkboxes div{
+  display: inline-block;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+
+
+/* ////// RangeIndex ////// */
+
+
+#colorSet{ /* RangeIndex Index Box */
+  border-color: var(--border-color);
+  border-style: solid !important;
+  border-width: thin !important;
+  padding: 2em;
+
+  border-radius: 8px !important;
+  background-color: var(--boxContainer-color);
+  margin-top: 25px;
+}
+
+.colorLineText{
+  margin-left: 3em;
+  margin-right: 1em;
+}
+
+.colorLine{
+  padding: 4px !important;
+  margin-top: 4px !important;
+  height: 20px;
+}
+
+.lineData{
+  display: inline-flex;
+}
+
+/* RangeIndex Sidebar */
 
 .nav-pills li.active a{
   background-color: var(--accent-bg) !important;
 }
 
-#forumButton{
-  margin-bottom: 10px;
-}
-
+/* RangeIndex Sidebar Settings */
 #satSortVis{
   display: none;
 }
@@ -289,89 +244,53 @@ input[type="checkbox"] {
   display: none;
 }
 
+/* RangeIndex Sidebar Forum */
+#forumBox{
+
+  border-color: var(--border-color);
+  border-style: solid;
+  border-width: thin;
+  padding: 2em;
+  background-color: var(--boxContainer-color);
+  border-radius: 8px;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+/* RangeIndex Color Names */
+
 #greyscaleBanner{
-  background-color: rgb(39, 39, 39) !important;
-  display: inline-block;
-  opacity: 75%;
-  color: white;
-  width: 75px;
-  height: 21px;
-  padding-left:5px;
+  background-color: rgb(39, 39, 39);
 }
 #brownBanner{
-  background-color: rgb(97, 68, 51) !important;
-  display: inline-block;
-  opacity: 75%;
-  color: white;  
-  width: 75px;
-  height: 21px;
-  padding-left:5px;
+  background-color: rgb(97, 68, 51);
 }
 #redBanner{
-  background-color: rgb(214, 61, 47) !important;
-  display: inline-block;
-  opacity: 75%;
-  color: white;  
-  width: 75px;
-  height: 21px;
-  padding-left:5px;
+  background-color: rgb(214, 61, 47);
 }
 #orangeBanner{
-  background-color: rgb(255, 109, 1) !important;
-  display: inline-block;
-  opacity: 75%;
-  color: white;  
-  width: 75px;
-  height: 21px;
-  padding-left:5px;
+  background-color: rgb(255, 109, 1);
 }
 #yellowBanner{
-  background-color: rgb(251, 188, 4) !important;
-  display: inline-block;
-  opacity: 75%;
-  color: white;  
-  width: 75px;
-  height: 21px;
-  padding-left:5px;
+  background-color: rgb(251, 188, 4);
 }
 #greenBanner{
-  background-color: rgb(40, 130, 63) !important;
-  display: inline-block;
-  opacity: 75%;
-  color: white;  
-  width: 75px;
-  height: 21px;
-  padding-left:5px;
+  background-color: rgb(40, 130, 63);
 }
 #tealBanner{
-  background-color: rgb(70, 189, 198) !important;
-  display: inline-block;
-  opacity: 75%;
-  color: white;  
-  width: 75px;
-  height: 21px;
-  padding-left:5px;
+  background-color: rgb(70, 189, 198);
 }
 #blueBanner{
-  background-color: rgb(66, 133, 244) !important;
-  display: inline-block;
-  opacity: 75%;
-  color: white;  
-  width: 75px;
-  height: 21px;
-  padding-left:5px;
+  background-color: rgb(66, 133, 244);
 }
 #purpleBanner{
-  background-color: rgb(127, 93, 216) !important;
-  display: inline-block;
-  opacity: 75%;
-  color: white;  
-  width: 75px;
-  height: 21px;
-  padding-left:5px;
+  background-color: rgb(127, 93, 216);
 }
 #pinkBanner{
-  background-color: rgb(193, 56, 114) !important;
+  background-color: rgb(193, 56, 114);
+}
+
+.colorNameBanner{
   display: inline-block;
   opacity: 75%;
   color: white;  
@@ -380,88 +299,24 @@ input[type="checkbox"] {
   padding-left:5px;
 }
 
-.greyscaleSymbol{
-  background-color: rgb(39, 39, 39) !important;
-  height: 16px; 
-  width: 16px;
-  display: inline-block;
-  opacity: 75%;
-}
-.brownSymbol{
-  background-color: rgb(97, 68, 51) !important;
-  height: 16px; 
-  width: 16px;
-  display: inline-block;
-  opacity: 75%;
-}
-.redSymbol{
-  background-color: rgb(214, 61, 47) !important;
-  height: 16px; 
-  width: 16px;
-  display: inline-block;
-  opacity: 75%;
-}
-.orangeSymbol{
-  background-color: rgb(255, 109, 1) !important;
-  height: 16px; 
-  width: 16px;
-  display: inline-block;
-  opacity: 75%;
-}
-.yellowSymbol{
-  background-color: rgb(251, 188, 4) !important;
-  height: 16px; 
-  width: 16px;
-  display: inline-block;
-  opacity: 75%;
-}
-.greenSymbol{
-  background-color: rgb(40, 130, 63) !important;
-  height: 16px; 
-  width: 16px;
-  display: inline-block;
-  opacity: 75%;
-}
-.tealSymbol{
-  background-color: rgb(70, 189, 198) !important;
-  height: 16px; 
-  width: 16px;
-  display: inline-block;
-  opacity: 75%;
-}
-.blueSymbol{
-  background-color: rgb(66, 133, 244) !important;
-  height: 16px; 
-  width: 16px;
-  display: inline-block;
-  opacity: 75%;
-}
-.purpleSymbol{
-  background-color: rgb(127, 93, 216) !important;
-  height: 16px; 
-  width: 16px;
-  display: inline-block;
-  opacity: 75%;
-}
-.pinkSymbol{
-  background-color: rgb(193, 56, 114) !important;
-  height: 16px; 
-  width: 16px;
-  display: inline-block;
-  opacity: 75%;
-}
-/* DarkMode 
+/* RangeIndex Color Hue Swatches */
 
-.darkmodeBase{
-  background-color: rgb(70,93,89);
-  color: rgb(218,221,233);
+.colorPalette{
+  height: 16px; 
+  width: 16px; 
+  border-radius: 4px;
+  margin-left: 1em;   
+  right: 10%; 
+  position: absolute;
+  display: inline-block;
+  opacity: 75%;    
 }
 
-.darkmodeBox{
-  background-color: rgb(32,39,57);
-}
+/* ////// End RangeIndex ////// */
 
-/*
+
+
+/* PB Lightmode Ref
 color-scheme: normal;
   --v-theme-background: 70,93,89;
   --v-theme-surface: 255,255,255;
