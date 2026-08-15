@@ -2,15 +2,15 @@
 var r = document.querySelector(':root');
 
 function darkModeOn(){
-	localStorage.setItem("darkmode", 1);
+	window.localStorage.setItem("darkmode", "1");
 	console.log("darkmode")
-	console.log(localStorage.getItem("darkmode"))	
+	console.log(window.localStorage.getItem("darkmode"))	
 }
 
 function darkModeOff(){
-	localStorage.setItem("darkmode", 0);
+	window.localStorage.setItem("darkmode", "0");
 	console.log("lightmode")
-	console.log(localStorage.getItem("darkmode"))
+	console.log(window.localStorage.getItem("darkmode"))
 }
 
 function darkModeSet(){
@@ -42,11 +42,11 @@ function darkModeRemove(){
 
 function darkModeControl(){
 	console.log("hallo")
-	localStorage.setItem("darkmode", 0)
-	console.log(localStorage.getItem("darkmode"))
-	if (localStorage.getItem("darkmode") == 1) {
+	window.localStorage.setItem("darkmode", "0")
+	console.log(window.localStorage.getItem("darkmode"))
+	if (window.localStorage.getItem("darkmode").localeCompare("1") == 0) {
 		darkModeSet();
-	} else if (localStorage.getItem("darkmode") == 0 ){
+	} else if (window.localStorage.getItem("darkmode").localeCompare("0") == 0 ){
 		darkModeRemove();
 	}
 	else{
@@ -56,13 +56,14 @@ function darkModeControl(){
 
 function darkModeSwitch(){
 	console.log("hello")
-	console.log(localStorage.getItem("darkmode"))
+	console.log(window.localStorage.getItem("darkmode"))
 
-	if (localStorage.getItem("darkmode") == 1) {
+	if (window.localStorage.getItem("darkmode").localeCompare("1") == 0) {
 		darkModeOff();
 		darkModeRemove();
-	} else if (localStorage.getItem("darkmode") == 0 ){
+	} else if (window.localStorage.getItem("darkmode").localeCompare("0") == 0 ){
 		darkModeOn();
 		darkModeSet();
 	}
 }
+
