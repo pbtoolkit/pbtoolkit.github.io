@@ -2384,7 +2384,7 @@ for (var i = 0; i < 3; i++) {
 		colorSet.appendChild(userInput)
 	}
 
-	// Returns the colors
+	// MAIN- Returns the colors
 
 	for (var i = 0; i < showcaseColors.length; i++) {
 		const colorLine = document.createElement("div");
@@ -2416,52 +2416,53 @@ for (var i = 0; i < 3; i++) {
 
 			if(showcaseColors[i].hue === "Greyscale"){
 				const symbol = document.createElement("div");
-				symbol.classList.add('greyscaleSymbol');
+				symbol.style.backgroundColor = "rgb(39, 39, 39)";
+
 				symbol.classList.add('colorPalette');
 				lineData.appendChild(symbol);
 			}else if(showcaseColors[i].hue === "Brown"){
 				const symbol = document.createElement("div");
-				symbol.classList.add('brownSymbol');
+				symbol.style.backgroundColor = "rgb(97, 68, 51)";
 				symbol.classList.add('colorPalette');
 				lineData.appendChild(symbol);
 			}else if(showcaseColors[i].hue === "Red"){
 				const symbol = document.createElement("div");
-				symbol.classList.add('redSymbol');
+				symbol.style.backgroundColor = "rgb(214, 61, 47)";
 				symbol.classList.add('colorPalette');
 				lineData.appendChild(symbol);
 			} else if(showcaseColors[i].hue === "Orange"){
 				const symbol = document.createElement("div");
-				symbol.classList.add('orangeSymbol');
+				symbol.style.backgroundColor = "rgb(255, 109, 1)";
 				symbol.classList.add('colorPalette');
 				lineData.appendChild(symbol);
 			} else if(showcaseColors[i].hue === "Yellow"){
 				const symbol = document.createElement("div");
-				symbol.classList.add('yellowSymbol');
+				symbol.style.backgroundColor = "rgb(251, 188, 4)";
 				symbol.classList.add('colorPalette');
 				lineData.appendChild(symbol);
 			} else if(showcaseColors[i].hue === "Green"){
 				const symbol = document.createElement("div");
-				symbol.classList.add('greenSymbol');
+				symbol.style.backgroundColor = "rgb(40, 130, 63)";
 				symbol.classList.add('colorPalette');
 				lineData.appendChild(symbol);
 			} else if(showcaseColors[i].hue === "Teal"){
 				const symbol = document.createElement("div");
-				symbol.classList.add('tealSymbol');
+				symbol.style.backgroundColor = "rgb(70, 189, 198)";
 				symbol.classList.add('colorPalette');
 				lineData.appendChild(symbol);
 			} else if(showcaseColors[i].hue === "Blue"){
 				const symbol = document.createElement("div");
-				symbol.classList.add('blueSymbol');
+				symbol.style.backgroundColor = "rgb(66, 133, 244)";
 				symbol.classList.add('colorPalette');
 				lineData.appendChild(symbol);
 			} else if(showcaseColors[i].hue === "Purple"){
 				const symbol = document.createElement("div");
-				symbol.classList.add('purpleSymbol');
+				symbol.style.backgroundColor = "rgb(127, 93, 216)";
 				symbol.classList.add('colorPalette');
 				lineData.appendChild(symbol);
 			} else if(showcaseColors[i].hue === "Pink"){
 				const symbol = document.createElement("div");
-				symbol.classList.add('pinkSymbol');
+				symbol.style.backgroundColor = "rgb(193, 56, 114)";
 				symbol.classList.add('colorPalette');
 				lineData.appendChild(symbol);
 			}
@@ -2516,5 +2517,6 @@ for (var i = 0; i < 3; i++) {
 
 
 }
+
 
 
