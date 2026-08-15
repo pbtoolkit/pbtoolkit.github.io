@@ -19,10 +19,27 @@ Lumi 2: Medium
 Lumi 3: Dark
 */
 
+
+/* Sorting Values:
+greyscale: 0
+brown: 1
+red: 2
+orange: 3
+yellow: 4
+green: 5
+teal: 6
+blue: 7
+purple: 8
+pink: 9
+
+
+*/
+
 let pbColors = [
 	{
 		"color":"Snowdrop",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Universal",
 		"sortSaturation": 0,
 		"luminosity": "Light",
@@ -32,6 +49,7 @@ let pbColors = [
 	{
 		"color":"Jasmine",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Universal",
 		"sortSaturation": 0,
 		"luminosity": "Light",
@@ -41,6 +59,7 @@ let pbColors = [
 	{
 		"color":"Diamond",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Universal",
 		"sortSaturation": 0,
 		"luminosity": "Light",
@@ -50,6 +69,7 @@ let pbColors = [
 	{
 		"color":"Panda",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -59,6 +79,7 @@ let pbColors = [
 	{
 		"color":"Birch",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -68,6 +89,7 @@ let pbColors = [
 	{
 		"color":"Heron",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -77,6 +99,7 @@ let pbColors = [
 	{
 		"color":"Moon",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -86,6 +109,7 @@ let pbColors = [
 	{
 		"color":"Moonflower",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -95,6 +119,7 @@ let pbColors = [
 	{
 		"color":"Possum",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -104,6 +129,7 @@ let pbColors = [
 	{
 		"color":"Chinchilla",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -113,6 +139,7 @@ let pbColors = [
 	{
 		"color":"Silver",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -122,6 +149,7 @@ let pbColors = [
 	{
 		"color":"Frost",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -131,6 +159,7 @@ let pbColors = [
 	{
 		"color":"Ash",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -140,6 +169,7 @@ let pbColors = [
 	{
 		"color":"Quail",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -149,6 +179,7 @@ let pbColors = [
 	{
 		"color":"Dust",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -158,6 +189,7 @@ let pbColors = [
 	{
 		"color":"Cinder",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -167,6 +199,7 @@ let pbColors = [
 	{
 		"color":"Iron",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -176,6 +209,7 @@ let pbColors = [
 	{
 		"color":"Beetle",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -185,6 +219,7 @@ let pbColors = [
 	{
 		"color":"Swallowtail",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -194,6 +229,7 @@ let pbColors = [
 	{
 		"color":"Raven",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -203,6 +239,7 @@ let pbColors = [
 	{
 		"color":"Eclipse",	
 		"hue": "Greyscale",	
+		"sortHue": 0,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -212,6 +249,7 @@ let pbColors = [
 	{
 		"color":"Sand",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -221,6 +259,7 @@ let pbColors = [
 	{
 		"color":"Shrew",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -230,6 +269,7 @@ let pbColors = [
 	{
 		"color":"Hound",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -239,6 +279,7 @@ let pbColors = [
 	{
 		"color":"Bean",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -248,6 +289,7 @@ let pbColors = [
 	{
 		"color":"Silt",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -257,6 +299,7 @@ let pbColors = [
 	{
 		"color":"Sparrow",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -266,6 +309,7 @@ let pbColors = [
 	{
 		"color":"Leaf",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -275,6 +319,7 @@ let pbColors = [
 	{
 		"color":"Mink",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -284,6 +329,7 @@ let pbColors = [
 	{
 		"color":"Hazelnut",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -293,6 +339,7 @@ let pbColors = [
 	{
 		"color":"Buckeye",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -302,6 +349,7 @@ let pbColors = [
 	{
 		"color":"Bear",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -311,6 +359,7 @@ let pbColors = [
 	{
 		"color":"Bramble",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -320,6 +369,7 @@ let pbColors = [
 	{
 		"color":"Hawk",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -329,6 +379,7 @@ let pbColors = [
 	{
 		"color":"Puffin",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -338,6 +389,7 @@ let pbColors = [
 	{
 		"color":"Coconut",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -347,6 +399,7 @@ let pbColors = [
 	{
 		"color":"Oat",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -356,6 +409,7 @@ let pbColors = [
 	{
 		"color":"Bone",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -365,6 +419,7 @@ let pbColors = [
 	{
 		"color":"Hare",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -374,6 +429,7 @@ let pbColors = [
 	{
 		"color":"Cassia",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -383,6 +439,7 @@ let pbColors = [
 	{
 		"color":"Fawn",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -392,6 +449,7 @@ let pbColors = [
 	{
 		"color":"Smoke",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -401,6 +459,7 @@ let pbColors = [
 	{
 		"color":"Mouse",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -410,6 +469,7 @@ let pbColors = [
 	{
 		"color":"Coyote",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -419,6 +479,7 @@ let pbColors = [
 	{
 		"color":"Charcoal",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -428,6 +489,7 @@ let pbColors = [
 	{
 		"color":"Bushpig",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -437,6 +499,7 @@ let pbColors = [
 	{
 		"color":"Licorice",
 		"hue": "Brown",
+		"sortHue": 1,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -446,6 +509,7 @@ let pbColors = [
 	{
 		"color":"Axolotl",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -455,6 +519,7 @@ let pbColors = [
 	{
 		"color":"Coral",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -464,6 +529,7 @@ let pbColors = [
 	{
 		"color":"Hawthorn",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -473,6 +539,7 @@ let pbColors = [
 	{
 		"color":"Mushroom",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -482,6 +549,7 @@ let pbColors = [
 	{
 		"color":"Pomegranate",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -491,6 +559,7 @@ let pbColors = [
 	{
 		"color":"Apple",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -500,6 +569,7 @@ let pbColors = [
 	{
 		"color":"Tulip",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -509,6 +579,7 @@ let pbColors = [
 	{
 		"color":"Lychee",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -518,6 +589,7 @@ let pbColors = [
 	{
 		"color":"Radish",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -527,6 +599,7 @@ let pbColors = [
 	{
 		"color":"Ruby",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -536,6 +609,7 @@ let pbColors = [
 	{
 		"color":"Blood",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -545,6 +619,7 @@ let pbColors = [
 	{
 		"color":"Lotus",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -554,6 +629,7 @@ let pbColors = [
 	{
 		"color":"Peach",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -563,6 +639,7 @@ let pbColors = [
 	{
 		"color":"Squid",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -572,6 +649,7 @@ let pbColors = [
 	{
 		"color":"Salmon",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -581,6 +659,7 @@ let pbColors = [
 	{
 		"color":"Hornet",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -590,6 +669,7 @@ let pbColors = [
 	{
 		"color":"Deer",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -599,6 +679,7 @@ let pbColors = [
 	{
 		"color":"Poppy",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -608,6 +689,7 @@ let pbColors = [
 	{
 		"color":"Squirrel",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -617,6 +699,7 @@ let pbColors = [
 	{
 		"color":"Ladybug",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -626,6 +709,7 @@ let pbColors = [
 	{
 		"color":"Fox",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -635,6 +719,7 @@ let pbColors = [
 	{
 		"color":"Maple",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -644,6 +729,7 @@ let pbColors = [
 	{
 		"color":"Hellebore",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -653,6 +739,7 @@ let pbColors = [
 	{
 		"color":"Beetroot",
 		"hue": "Red",
+		"sortHue": 2,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -662,6 +749,7 @@ let pbColors = [
 	{
 		"color":"Grapefruit",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -671,6 +759,7 @@ let pbColors = [
 	{
 		"color":"Persimmon",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -680,6 +769,7 @@ let pbColors = [
 	{
 		"color":"Autumn",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -689,6 +779,7 @@ let pbColors = [
 	{
 		"color":"Tamarin",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -698,6 +789,7 @@ let pbColors = [
 	{
 		"color":"Fire",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -707,6 +799,7 @@ let pbColors = [
 	{
 		"color":"Goldfish",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -716,6 +809,7 @@ let pbColors = [
 	{
 		"color":"Daybreak",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -725,6 +819,7 @@ let pbColors = [
 	{
 		"color":"Sweetpotato",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -734,6 +829,7 @@ let pbColors = [
 	{
 		"color":"Rooster",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -743,6 +839,7 @@ let pbColors = [
 	{
 		"color":"Seed",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -752,6 +849,7 @@ let pbColors = [
 	{
 		"color":"Sap",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -761,6 +859,7 @@ let pbColors = [
 	{
 		"color":"Yuca",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -770,6 +869,7 @@ let pbColors = [
 	{
 		"color":"Pumpkin",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -779,6 +879,7 @@ let pbColors = [
 	{
 		"color":"Apricot",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -788,6 +889,7 @@ let pbColors = [
 	{
 		"color":"Carrot",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -797,6 +899,7 @@ let pbColors = [
 	{
 		"color":"Clay",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -806,6 +909,7 @@ let pbColors = [
 	{
 		"color":"Sun",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -815,6 +919,7 @@ let pbColors = [
 	{
 		"color":"Butternut",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -824,6 +929,7 @@ let pbColors = [
 	{
 		"color":"Ginger",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -833,6 +939,7 @@ let pbColors = [
 	{
 		"color":"Tangerine",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -842,6 +949,7 @@ let pbColors = [
 	{
 		"color":"Killdeer",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -851,6 +959,7 @@ let pbColors = [
 	{
 		"color":"Yam",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -860,6 +969,7 @@ let pbColors = [
 	{
 		"color":"Cinnamon",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -869,6 +979,7 @@ let pbColors = [
 	{
 		"color":"Flame",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -878,6 +989,7 @@ let pbColors = [
 	{
 		"color":"Nutmeg",
 		"hue": "Orange",
+		"sortHue": 3,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -887,6 +999,7 @@ let pbColors = [
 	{
 		"color":"Sugar",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -896,6 +1009,7 @@ let pbColors = [
 	{
 		"color":"Cornsilk",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -905,6 +1019,7 @@ let pbColors = [
 	{
 		"color":"Vanilla",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -914,6 +1029,7 @@ let pbColors = [
 	{
 		"color":"Thyme",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -923,6 +1039,7 @@ let pbColors = [
 	{
 		"color":"Banana",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -932,6 +1049,7 @@ let pbColors = [
 	{
 		"color":"Durian",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -941,6 +1059,7 @@ let pbColors = [
 	{
 		"color":"Canary",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -950,6 +1069,7 @@ let pbColors = [
 	{
 		"color":"Daffodil",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -959,6 +1079,7 @@ let pbColors = [
 	{
 		"color":"Yellowjacket",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -968,6 +1089,7 @@ let pbColors = [
 	{
 		"color":"Bellpepper",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -977,6 +1099,7 @@ let pbColors = [
 	{
 		"color":"Thunder",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -986,6 +1109,7 @@ let pbColors = [
 	{
 		"color":"Mango",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -995,6 +1119,7 @@ let pbColors = [
 	{
 		"color":"Amber",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1004,6 +1129,7 @@ let pbColors = [
 	{
 		"color":"Squash",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1013,6 +1139,7 @@ let pbColors = [
 	{
 		"color":"Sheep",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1022,6 +1149,7 @@ let pbColors = [
 	{
 		"color":"Summer",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1031,6 +1159,7 @@ let pbColors = [
 	{
 		"color":"Honeysuckle",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1040,6 +1169,7 @@ let pbColors = [
 	{
 		"color":"Bee",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1049,6 +1179,7 @@ let pbColors = [
 	{
 		"color":"Root",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1058,6 +1189,7 @@ let pbColors = [
 	{
 		"color":"Flaxseed",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1067,6 +1199,7 @@ let pbColors = [
 	{
 		"color":"Dandelion",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1076,6 +1209,7 @@ let pbColors = [
 	{
 		"color":"Honey",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1085,6 +1219,7 @@ let pbColors = [
 	{
 		"color":"Turmeric",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1094,6 +1229,7 @@ let pbColors = [
 	{
 		"color":"Gold",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1103,6 +1239,7 @@ let pbColors = [
 	{
 		"color":"Peanut",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -1112,6 +1249,7 @@ let pbColors = [
 	{
 		"color":"Oak",
 		"hue": "Yellow",
+		"sortHue": 4,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -1121,6 +1259,7 @@ let pbColors = [
 	{
 		"color":"Flora",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1130,6 +1269,7 @@ let pbColors = [
 	{
 		"color":"Mint",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1139,6 +1279,7 @@ let pbColors = [
 	{
 		"color":"Hummingbird",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1148,6 +1289,7 @@ let pbColors = [
 	{
 		"color":"Anise",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1157,6 +1299,7 @@ let pbColors = [
 	{
 		"color":"Parakeet",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1166,6 +1309,7 @@ let pbColors = [
 	{
 		"color":"Caterpillar",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1175,6 +1319,7 @@ let pbColors = [
 	{
 		"color":"Chameleon",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1184,6 +1329,7 @@ let pbColors = [
 	{
 		"color":"Rosemary",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1193,6 +1339,7 @@ let pbColors = [
 	{
 		"color":"Emerald",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1202,6 +1349,7 @@ let pbColors = [
 	{
 		"color":"Sage",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1211,6 +1359,7 @@ let pbColors = [
 	{
 		"color":"Peyote",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1220,6 +1369,7 @@ let pbColors = [
 	{
 		"color":"Creeper",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1229,6 +1379,7 @@ let pbColors = [
 	{
 		"color":"Parsley",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1238,6 +1389,7 @@ let pbColors = [
 	{
 		"color":"Holly",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1247,6 +1399,7 @@ let pbColors = [
 	{
 		"color":"Mahimahi",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1256,6 +1409,7 @@ let pbColors = [
 	{
 		"color":"Onion",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1265,6 +1419,7 @@ let pbColors = [
 	{
 		"color":"Spring",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1274,6 +1429,7 @@ let pbColors = [
 	{
 		"color":"Pistachio",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1283,6 +1439,7 @@ let pbColors = [
 	{
 		"color":"Frog",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1292,6 +1449,7 @@ let pbColors = [
 	{
 		"color":"Eel",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1301,6 +1459,7 @@ let pbColors = [
 	{
 		"color":"Tea",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1310,6 +1469,7 @@ let pbColors = [
 	{
 		"color":"Locust",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1319,6 +1479,7 @@ let pbColors = [
 	{
 		"color":"Eucalyptus",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -1328,6 +1489,7 @@ let pbColors = [
 	{
 		"color":"Toad",
 		"hue": "Green",
+		"sortHue": 5,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -1337,6 +1499,7 @@ let pbColors = [
 	{
 		"color":"Spirit",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1346,6 +1509,7 @@ let pbColors = [
 	{
 		"color":"Seafoam",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1355,6 +1519,7 @@ let pbColors = [
 	{
 		"color":"Wind",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1364,6 +1529,7 @@ let pbColors = [
 	{
 		"color":"Lightning",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1373,6 +1539,7 @@ let pbColors = [
 	{
 		"color":"Anemone",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1382,6 +1549,7 @@ let pbColors = [
 	{
 		"color":"Meteor",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1391,6 +1559,7 @@ let pbColors = [
 	{
 		"color":"Rainwash",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1400,6 +1569,7 @@ let pbColors = [
 	{
 		"color":"Jade",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1409,6 +1579,7 @@ let pbColors = [
 	{
 		"color":"Puya",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1418,6 +1589,7 @@ let pbColors = [
 	{
 		"color":"Agate",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1427,6 +1599,7 @@ let pbColors = [
 	{
 		"color":"Bloodstone",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1436,6 +1609,7 @@ let pbColors = [
 	{
 		"color":"Egg",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1445,6 +1619,7 @@ let pbColors = [
 	{
 		"color":"Winter",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1454,6 +1629,7 @@ let pbColors = [
 	{
 		"color":"Hydrangea",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1463,6 +1639,7 @@ let pbColors = [
 	{
 		"color":"Gourami",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1472,6 +1649,7 @@ let pbColors = [
 	{
 		"color":"Mist",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1481,6 +1659,7 @@ let pbColors = [
 	{
 		"color":"Bismuth",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1490,6 +1669,7 @@ let pbColors = [
 	{
 		"color":"Silverfish",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1499,6 +1679,7 @@ let pbColors = [
 	{
 		"color":"Treeswallow",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1508,6 +1689,7 @@ let pbColors = [
 	{
 		"color":"Seabed",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -1517,6 +1699,7 @@ let pbColors = [
 	{
 		"color":"Mantaray",
 		"hue": "Teal",
+		"sortHue": 6,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -1526,6 +1709,7 @@ let pbColors = [
 	{
 		"color":"Hail",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1535,6 +1719,7 @@ let pbColors = [
 	{
 		"color":"Sky",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1544,6 +1729,7 @@ let pbColors = [
 	{
 		"color":"Chrysalis",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1553,6 +1739,7 @@ let pbColors = [
 	{
 		"color":"Larkspur",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1562,6 +1749,7 @@ let pbColors = [
 	{
 		"color":"Fairywren",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1571,6 +1759,7 @@ let pbColors = [
 	{
 		"color":"Damselfly",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1580,6 +1769,7 @@ let pbColors = [
 	{
 		"color":"Kingfisher",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1589,6 +1779,7 @@ let pbColors = [
 	{
 		"color":"Dragonslug",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1598,6 +1789,7 @@ let pbColors = [
 	{
 		"color":"Sapphire",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1607,6 +1799,7 @@ let pbColors = [
 	{
 		"color":"Peafowl",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1616,6 +1809,7 @@ let pbColors = [
 	{
 		"color":"Nightfall",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1625,6 +1819,7 @@ let pbColors = [
 	{
 		"color":"Ice",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1634,6 +1829,7 @@ let pbColors = [
 	{
 		"color":"Feather",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1643,6 +1839,7 @@ let pbColors = [
 	{
 		"color":"Storm",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1652,6 +1849,7 @@ let pbColors = [
 	{
 		"color":"River",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1661,6 +1859,7 @@ let pbColors = [
 	{
 		"color":"Arctic",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1670,6 +1869,7 @@ let pbColors = [
 	{
 		"color":"Ocean",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1679,6 +1879,7 @@ let pbColors = [
 	{
 		"color":"Mackerel",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1688,6 +1889,7 @@ let pbColors = [
 	{
 		"color":"Lapis",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -1697,6 +1899,7 @@ let pbColors = [
 	{
 		"color":"Betta",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -1706,6 +1909,7 @@ let pbColors = [
 	{
 		"color":"Whale",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -1715,6 +1919,7 @@ let pbColors = [
 	{
 		"color":"Midnight",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -1724,6 +1929,7 @@ let pbColors = [
 	{
 		"color":"Magpie",
 		"hue": "Blue",
+		"sortHue": 7,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -1733,6 +1939,7 @@ let pbColors = [
 	{
 		"color":"Stardust", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1742,6 +1949,7 @@ let pbColors = [
 	{
 		"color":"Hyacinth", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1751,6 +1959,7 @@ let pbColors = [
 	{
 		"color":"Catmint", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1760,6 +1969,7 @@ let pbColors = [
 	{
 		"color":"Foxglove", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1769,6 +1979,7 @@ let pbColors = [
 	{
 		"color":"Aster", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1778,6 +1989,7 @@ let pbColors = [
 	{
 		"color":"Pokeweed", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1787,6 +1999,7 @@ let pbColors = [
 	{
 		"color":"Bellflower", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1796,6 +2009,7 @@ let pbColors = [
 	{
 		"color":"Wolfsbane", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -1805,6 +2019,7 @@ let pbColors = [
 	{
 		"color":"Huckleberry", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1814,6 +2029,7 @@ let pbColors = [
 	{
 		"color":"Nightshade", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1823,6 +2039,7 @@ let pbColors = [
 	{
 		"color":"Fig", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1832,6 +2049,7 @@ let pbColors = [
 	{
 		"color":"Plum", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1841,6 +2059,7 @@ let pbColors = [
 	{
 		"color":"Urchin", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -1850,6 +2069,7 @@ let pbColors = [
 	{
 		"color":"Morning", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1859,6 +2079,7 @@ let pbColors = [
 	{
 		"color":"Heather", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1868,6 +2089,7 @@ let pbColors = [
 	{
 		"color":"Twilight", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1877,6 +2099,7 @@ let pbColors = [
 	{
 		"color":"Lavender", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -1886,6 +2109,7 @@ let pbColors = [
 	{
 		"color":"Wisteria", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1895,6 +2119,7 @@ let pbColors = [
 	{
 		"color":"Taro", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1904,6 +2129,7 @@ let pbColors = [
 	{
 		"color":"Iris", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1913,6 +2139,7 @@ let pbColors = [
 	{
 		"color":"Thistle", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -1922,6 +2149,7 @@ let pbColors = [
 	{
 		"color":"Rain", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -1931,6 +2159,7 @@ let pbColors = [
 	{
 		"color":"Shadow", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -1940,6 +2169,7 @@ let pbColors = [
 	{
 		"color":"Currant", 
 		"hue": "Purple",
+		"sortHue": 8,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -1949,6 +2179,7 @@ let pbColors = [
 	{
 		"color":"Sakura",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1958,6 +2189,7 @@ let pbColors = [
 	{
 		"color":"Quartz",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1967,6 +2199,7 @@ let pbColors = [
 	{
 		"color":"Peony",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1976,6 +2209,7 @@ let pbColors = [
 	{
 		"color":"Hibiscus",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1985,6 +2219,7 @@ let pbColors = [
 	{
 		"color":"Carnation",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Light",
@@ -1994,6 +2229,7 @@ let pbColors = [
 	{
 		"color":"Rose",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -2003,6 +2239,7 @@ let pbColors = [
 	{
 		"color":"Watermelon",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -2012,6 +2249,7 @@ let pbColors = [
 	{
 		"color":"Dragonfruit",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -2021,6 +2259,7 @@ let pbColors = [
 	{
 		"color":"Begonia",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -2030,6 +2269,7 @@ let pbColors = [
 	{
 		"color":"Orchid",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Medium",
@@ -2039,6 +2279,7 @@ let pbColors = [
 	{
 		"color":"Winecup",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Saturated",
 		"sortSaturation": 1,
 		"luminosity": "Dark",
@@ -2048,6 +2289,7 @@ let pbColors = [
 	{
 		"color":"Lily",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -2057,6 +2299,7 @@ let pbColors = [
 	{
 		"color":"Pearl",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Light",
@@ -2066,6 +2309,7 @@ let pbColors = [
 	{
 		"color":"Magnolia",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -2075,6 +2319,7 @@ let pbColors = [
 	{
 		"color":"Lilac",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -2084,6 +2329,7 @@ let pbColors = [
 	{
 		"color":"Waxflower",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -2093,6 +2339,7 @@ let pbColors = [
 	{
 		"color":"Acai",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Medium",
@@ -2102,6 +2349,7 @@ let pbColors = [
 	{
 		"color":"Mulberry",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -2111,6 +2359,7 @@ let pbColors = [
 	{
 		"color":"Dahlia",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -2120,6 +2369,7 @@ let pbColors = [
 	{
 		"color":"Grape",
 		"hue": "Pink",
+		"sortHue": 9,	
 		"saturation": "Desaturated",
 		"sortSaturation": 2,
 		"luminosity": "Dark",
@@ -2333,6 +2583,8 @@ for (var i = 0; i < 3; i++) {
 		} else { // if reverse false
 			showcaseColors.sort((a, b) => a.sortLuminosity - b.sortLuminosity);
 		}
+	} else {
+			showcaseColors.sort((a, b) => a.sortHue - b.sortHue); 		
 	}
 
 // Sort Primary
@@ -2348,6 +2600,8 @@ for (var i = 0; i < 3; i++) {
 		} else { // if reverse false
 			showcaseColors.sort((a, b) => a.sortLuminosity - b.sortLuminosity);
 		}
+	} else {
+			showcaseColors.sort((a, b) => a.sortHue - b.sortHue); 		
 	}
 
 	// Resets Page Colors
@@ -2522,6 +2776,3 @@ for (var i = 0; i < 3; i++) {
 
 
 }
-
-
-
