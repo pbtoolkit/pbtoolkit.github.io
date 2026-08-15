@@ -66,8 +66,3 @@ function darkModeSwitch(){
 		darkModeSet();
 	}
 }
-
-function initialize(){
-	generate();
-	darkModeControl();
-}
