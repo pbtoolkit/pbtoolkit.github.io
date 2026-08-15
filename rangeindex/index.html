@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="../style.css">
 
 	<script src="colorIndexerScript.js"></script>
-	<script src="darkMode.js"></script>
+	<script src="../darkMode.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
@@ -53,37 +53,35 @@
 			    		<div class="col-sm-4">
 							<form id="Hue" class="checkboxes"><h3>Hue:</h3>
 
-							<!--<input type="checkbox" name="Hue" id="Hue" multiple>-->
 								<input type="checkbox" id="Greyscale" name="Greyscale" value="Greyscale" checked>
-								<label for="Greyscale" id="greyscaleBanner">	Greyscale</label><br>
+								<label for="Greyscale" id="greyscaleBanner" class="colorNameBanner">Greyscale</label><br>
 
 								<input type="checkbox" id="Brown" name="Brown" value="Brown">
-								<label for="Brown" id="brownBanner">	Brown</label><br>
+								<label for="Brown" id="brownBanner" class="colorNameBanner">Brown</label><br>
 
 								<input type="checkbox" id="Red" name="Red" value="Red">
-								<label for="Red" id="redBanner">Red</label><br>
+								<label for="Red" id="redBanner" class="colorNameBanner">Red</label><br>
 
 								<input type="checkbox" id="Orange" name="Orange" value="Orange">
-								<label for="Orange" id="orangeBanner">Orange</label><br>
+								<label for="Orange" id="orangeBanner" class="colorNameBanner">Orange</label><br>
 
 								<input type="checkbox" id="Yellow" name="Yellow" value="Yellow">
-								<label for="Yellow" id="yellowBanner">Yellow</label><br>
-
+								<label for="Yellow" id="yellowBanner" class="colorNameBanner">Yellow</label><br>
 
 								<input type="checkbox" id="Green" name="Green" value="Green">
-								<label for="Green" id="greenBanner">Green</label><br>
+								<label for="Green" id="greenBanner" class="colorNameBanner">Green</label><br>
 
 								<input type="checkbox" id="Teal" name="Teal" value="Teal">
-								<label for="Teal" id="tealBanner">Teal</label><br>
+								<label for="Teal" id="tealBanner" class="colorNameBanner">Teal</label><br>
 
 								<input type="checkbox" id="Blue" name="Blue" value="Blue">
-								<label for="Blue" id="blueBanner">Blue</label><br>
+								<label for="Blue" id="blueBanner" class="colorNameBanner">Blue</label><br>
 
 								<input type="checkbox" id="Purple" name="Purple" value="Purple">
-								<label for="Purple" id="purpleBanner">Purple</label><br>
+								<label for="Purple" id="purpleBanner" class="colorNameBanner">Purple</label><br>
 
 								<input type="checkbox" id="Pink" name="Pink" value="Pink">
-								<label for="Pink" id="pinkBanner">Pink</label><br>
+								<label for="Pink" id="pinkBanner" class="colorNameBanner">Pink</label><br>
 
 							</form>
 						</div>
@@ -205,23 +203,13 @@
 						<h3>Forum Code:</h3>
 						<p> Copies a simplified version of the selected color index for use on PB bios/forums.</p>
 						<button onclick="copyFunction()" id=forumButton>Copy text</button> 
-						<div id= forumBox class=key>
+						<div id= forumBox>
 
 						</div>
 						<p>Note: only shows the color and name, symbols not included.</p>				    	
 
 					  </div>
 					</div>
-
-
-				  <!-- Nav tabs 
-				  <ul class="nav nav-tabs" role="tablist">
-				    <li role="presentation" class="active"><a href="#instructions" aria-controls="instructions" role="tab" data-toggle="tab">instructions</a></li>
-				    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">settings</a></li>
-				    <li role="presentation"><a href="#forum" aria-controls="forum" role="tab" data-toggle="tab">forum</a></li>
-				  </ul>
-				-->
-
 				</div>
 				</div>
 			</div>	
@@ -234,5 +222,6 @@
 		</footer>
 
 	</body>
+
 
 
