@@ -2129,6 +2129,11 @@ let pbColors = [
 
 ]
 
+function initialize(){
+	generate();
+	darkModeControl();
+}
+
 function copyFunction() {
   // Get the text field
   var copyText = document.getElementById("forumBox");
