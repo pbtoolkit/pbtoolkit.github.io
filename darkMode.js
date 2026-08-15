@@ -42,7 +42,6 @@ function darkModeRemove(){
 
 function darkModeControl(){
 	console.log("hallo")
-	window.localStorage.setItem("darkmode", "0")
 	console.log(window.localStorage.getItem("darkmode"))
 	if (window.localStorage.getItem("darkmode").localeCompare("1") == 0) {
 		darkModeSet();
