@@ -2669,6 +2669,43 @@ for (var i = 0; i < 3; i++) {
 		colorBox.appendChild(lineData)
 		lineData.appendChild(colorText)
 
+	// add symbols if true
+		if (showColorAttributes == true) {
+
+			if(showcaseColors[i].luminosity === "Light"){
+				const symbol = document.getElementById("colorSymbolLightBasis").cloneNode(true);
+				symbol.classList.add('lightFix');				
+				lineData.appendChild(symbol);
+			} else if(showcaseColors[i].luminosity === "Medium"){
+				const symbol = document.getElementById("colorSymbolMediumBasis").cloneNode(true);
+				symbol.classList.add('lightFix');						
+				lineData.appendChild(symbol);
+
+			} else if(showcaseColors[i].luminosity === "Dark"){
+				const symbol = document.getElementById("colorSymbolDarkBasis").cloneNode(true);
+				symbol.classList.add('lightFix');				
+				lineData.appendChild(symbol);
+			}
+
+			if(showcaseColors[i].saturation === "Saturated"){
+				const symbol = document.getElementById("colorSymbolSaturatedBasis").cloneNode(true);
+				symbol.classList.add('saturatedFix');
+				lineData.appendChild(symbol);		
+			}else if(showcaseColors[i].saturation === "Desaturated"){
+				if (showDesatSymbol == true) {
+					const symbol = document.getElementById("colorSymbolDesaturatedBasis").cloneNode(true);
+					symbol.classList.add('saturatedFix');
+					lineData.appendChild(symbol);					
+				} else {
+					const symbol = document.getElementById("colorSymbolBlankBasis").cloneNode(true);
+					symbol.classList.add('saturatedFix');
+					lineData.appendChild(symbol);										
+				}
+		
+			}			
+		}
+
+
 	// add hue boxes if true
 
 		if (showHueAttributes == true) {
@@ -2727,35 +2764,6 @@ for (var i = 0; i < 3; i++) {
 			}
 		}
 
-	// add symbols if true
-		if (showColorAttributes == true) {
-
-			if(showcaseColors[i].luminosity === "Light"){
-				const symbol = document.getElementById("colorSymbolLightBasis").cloneNode(true);
-				symbol.classList.add('lightFix');				
-				lineData.appendChild(symbol);
-			} else if(showcaseColors[i].luminosity === "Medium"){
-				const symbol = document.getElementById("colorSymbolMediumBasis").cloneNode(true);
-				symbol.classList.add('lightFix');						
-				lineData.appendChild(symbol);
-
-			} else if(showcaseColors[i].luminosity === "Dark"){
-				const symbol = document.getElementById("colorSymbolDarkBasis").cloneNode(true);
-				symbol.classList.add('lightFix');				
-				lineData.appendChild(symbol);
-			}
-
-			if(showcaseColors[i].saturation === "Saturated"){
-				const symbol = document.getElementById("colorSymbolSaturatedBasis").cloneNode(true);
-				symbol.classList.add('saturatedFix');
-				lineData.appendChild(symbol);		
-			}else if(showcaseColors[i].saturation === "Desaturated" && showDesatSymbol == true){
-				const symbol = document.getElementById("colorSymbolDesaturatedBasis").cloneNode(true);
-				symbol.classList.add('saturatedFix');
-				lineData.appendChild(symbol);		
-			}			
-		}
-
 
 
 	//Send to page		
@@ -2776,3 +2784,6 @@ for (var i = 0; i < 3; i++) {
 
 
 }
+
+
+
