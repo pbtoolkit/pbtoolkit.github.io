@@ -51,8 +51,8 @@ footer{
 button {
   text-align: center;
   color: var(--select-color);  
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 label{
@@ -75,28 +75,13 @@ select{
 
 .right-align{
   display: inline-flex;
-  position: absolute;
-  right: 5%;
+  position: relative;
   margin-bottom: 10px;
-
+  left: 90%;
 }
 
 .center{
   text-align: center;
-}
-
-
-
-/* PB Vertical Card Clone */
-
-.box {
-    border-color: black;
-    border: 1px solid black;
-
-    height: 16px; 
-    width: 28px; 
-    border-radius: 4px;
-    margin-left: 1em;    
 }
 
 
@@ -111,7 +96,7 @@ svg{
   align-items: baseline;
   gap: 0.5rem;
 
-  position: absolute;  
+  position: relative;  
 }
 
 .colorSymbolLight{  
@@ -163,12 +148,20 @@ svg{
   stroke-width: 4px ;
 }
 
+.colorSymbolUniversal{
+  opacity: 1;
+  d: path("M 270.78 4.69 c -8.88 -6.25 -20.73 -6.25 -29.58 0 c -7.78 5.48 -190 136.43 -190 296.11 C 51.19 423.17 137.3 512 256 512 c 118.68 0 204.8 -88.78 204.8 -211.11 C 460.8 141.12 278.55 10.16 270.78 4.69 Z M 102.4 300.79 c 0 -109.65 112.5 -209.96 153.6 -242.96 V 460.8 C 165.55 460.8 102.4 395 102.4 300.79 Z");
+  fill: transparent;
+  stroke: currentColor;
+  stroke-width: 4px;
+  visibility: hidden;
+}
+
 .saturatedFix{
-  right: 20%;
+  left: 15px;
 }
 
 .lightFix{
-  right: 30%;
 }
 
 /* ////// SVG Symbols End ////// */
@@ -212,11 +205,14 @@ input[type="checkbox"] {
   border-radius: 8px !important;
   background-color: var(--boxContainer-color);
   margin-top: 25px;
+  min-width: 304px;
+  max-width: 304px;
 }
 
 .colorLineText{
   margin-left: 3em;
   margin-right: 1em;
+  width: 100px;
 }
 
 .colorLine{
@@ -229,10 +225,36 @@ input[type="checkbox"] {
   display: inline-flex;
 }
 
+.box { /* Colors Swatches */
+    border-color: black;
+    border: 1px solid black;
+
+    height: 16px; 
+    width: 28px; 
+    border-radius: 4px;
+}
+
+.selectionMin{
+  min-width: 620px;
+}
+
+.colorsetMin{
+  min-width: 350px;
+  max-width: 350px;  
+}
+
 /* RangeIndex Sidebar */
 
 .nav-pills li.active a{
   background-color: var(--accent-bg) !important;
+}
+
+.nav-pills{
+  margin: 15px;
+}
+
+.sidebar{
+  min-width: 355px;  
 }
 
 /* RangeIndex Sidebar Settings */
@@ -305,10 +327,9 @@ input[type="checkbox"] {
   height: 16px; 
   width: 16px; 
   border-radius: 4px;
-  margin-left: 1em;   
-  right: 10%; 
-  position: absolute;
-  display: inline-block;
+  left: 30px;
+   
+  position: relative;
   opacity: 75%;    
 }
 
