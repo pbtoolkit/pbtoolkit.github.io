@@ -30,14 +30,13 @@
 					<h1>FaeMarrow's Pawborough Color Indexer</h1>
 				</div>
 				<div class="col-sm-3">
-					<button onclick="darkModeSwitch()" class="right-align">Darkmode?</button>					
-
+					<button onclick="darkModeSwitch()" class="right-align">Darkmode?</button>
 				</div>
 			</div>
 
 		 	<div class="row">
 
-			    <div class="col-sm-3">
+			    <div class="col-sm-3 colorsetMin">
 
 					<div id="colorSet">
 					</div>
@@ -47,10 +46,10 @@
 			    </div>
 
 
-			    <div class="col-sm-6">
+			    <div class="col-sm-6 selectionMin">
 			    	<h2>Selection:</h2>
 
-			    		<div class="col-sm-4">
+			    		<div class="col-sm-3">
 							<form id="Hue" class="checkboxes"><h3>Hue:</h3>
 
 								<input type="checkbox" id="Greyscale" name="Greyscale" value="Greyscale" checked>
@@ -86,7 +85,7 @@
 							</form>
 						</div>
 
-						<div class="col-sm-8">
+						<div class="col-sm-9">
 							<div class="row">
 					    		<div class="col-sm-6">
 
@@ -101,7 +100,7 @@
 										<label for="Desaturated"><svg id=colorSymbolDesaturatedBasis viewbox="0, 0, 30, 42"><path class="colorSymbolDesaturated"></path></svg>&nbsp&nbsp&nbsp&nbsp  Desaturated</label><br>
 
 										<input type="checkbox" id="Universal" name="Universal" value="Universal">
-										<label for="Universal">&nbsp&nbsp&nbsp&nbsp  Universal</label><br>
+										<label for="Universal"><svg id=colorSymbolBlankBasis viewbox="0, 0, 30, 42"><path class="colorSymbolBlank"></path></svg>&nbsp&nbsp&nbsp&nbsp  Universal</label><br>
 									
 									</form>
 								</div>
@@ -125,7 +124,7 @@
 						</div>
 					<div class="row">
 						<br><br>
-						<div class="col-sm-4">
+						<div class="col-sm-6">
 				    		<h3>Sort Order:</h3>
 				    	   	<label for=Primary> Primary </label>
 							<label for="SortPrimary"></label>
@@ -156,7 +155,7 @@
 
 				<!-- Sidebar -->
 
-				<div id="sidebar" class="col-sm-3">
+				<div id="sidebar" class="col-sm-3 sidebar">
 
 					<ul class="nav nav-pills">
 					  <li class="active"><a data-toggle="pill" href="#instructions">instructions</a></li>
@@ -210,20 +209,10 @@
 
 					  </div>
 					</div>
-
-
-				  <!-- Nav tabs 
-				  <ul class="nav nav-tabs" role="tablist">
-				    <li role="presentation" class="active"><a href="#instructions" aria-controls="instructions" role="tab" data-toggle="tab">instructions</a></li>
-				    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">settings</a></li>
-				    <li role="presentation"><a href="#forum" aria-controls="forum" role="tab" data-toggle="tab">forum</a></li>
-				  </ul>
-				-->
-
 				</div>
-				</div>
-			</div>	
-		</div>
+			</div>
+		</div>	
+	</div>
 
 
 		<footer>
@@ -232,3 +221,6 @@
 		</footer>
 
 	</body>
+
+
+
